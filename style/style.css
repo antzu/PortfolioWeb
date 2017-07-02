@@ -1,0 +1,53 @@
+
+.container-nav {
+	
+	padding: 0 0 0 0;
+	width: 100%;
+} 
+body {
+    padding-top: 50px;
+    
+}
+
+html,body{
+    height: 100%
+}
+
+.app-container {
+	height: 100%
+}
+
+footer {
+
+	position: absolute;
+    bottom: 0;
+
+}
+
+.album {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7f7f7;
+}
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+}
+
+.card-text {
+  font-size: 85%;
+}
+
+
+
+
+
+
