@@ -31,12 +31,12 @@ render() {
 	          			</div>
 
 	          			<div className="card col-md-4 col-sm-12 col-12">
-							<img data-src="" alt="Card image cap" />
+							<img src="img/programming.jpg" alt="Card image cap" />
 	            			<p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 	          			</div>
 
 	          			<div className="card col-md-4 col-sm-12 col-12">
-							<img data-src="" alt="Card image cap" />
+							<img src="img/programming.jpg" alt="Card image cap" />
 	            			<p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 	          			</div>
 

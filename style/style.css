@@ -7,6 +7,7 @@ html,body{
 .app-container {
 	height: 100%;
   max-width: 1600px;
+  margin: 0 auto;
 
 }
 
@@ -40,13 +41,26 @@ html,body{
 
 .jumbotron-heading {
   font-weight: 300;
+  color: black;
+}
+
+.jumbotron p {
+  text-decoration-color: black;
+  font-weight: 400;
 }
 
 .jumbotron .container {
   max-width: 40rem;
+  max-height: 400px;
+  margin: 0 auto;
 }
 
-
+.jumbotron .container {
+  max-width: 40rem;
+  background: rgba(255,255,255,0.4);
+  padding: 2rem;
+  color: white;
+}
 
 /* Album part below Jumbotron */
 .album {
@@ -79,6 +93,8 @@ html,body{
 .footer {
   padding-top: 80px;
 }
+
+
 
 
 
