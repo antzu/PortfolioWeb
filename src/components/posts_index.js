@@ -28,14 +28,16 @@ class PostsIndex extends Component {
 	    return (
 	    	<div>
 	    	
-			<div className="container container-content">
+			<div className="container container-full-page">
 	    	
 	    		<div className="text-right">
 	    			<Link className="btn btn-primary" to="/posts/new">
 	    				Add a post
 	    			</Link>
 	    		</div>
+	    		<div className="col-md-4">
 		    	<h3>Posts</h3>
+		    	</div>
 		    	<ul className="list-group">
 		    		{this.renderPosts()}
 		    	</ul>

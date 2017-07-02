@@ -13,7 +13,7 @@ render() {
             <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
-            <a className="navbar-brand" href="#">Navigation</a>
+            <a className="navbar-brand" href="#">Andres Aava</a>
               <div className="collapse navbar-collapse" id="navbarCollapse">
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item active">

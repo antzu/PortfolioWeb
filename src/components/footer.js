@@ -6,15 +6,15 @@ class Footer extends Component {
 
 render() {
 	return (
-		<div className="footer">
+		<div className="footer col-12">
         
 		    <footer className="text-muted">
 		      <div className="container">
 		        <p className="float-right">
 		          <a href="#">Back to top</a>
 		        </p>
-		        <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-		        <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
+		        <p>Site is created by &copy; Andres Aava</p>
+		        
 		      </div>
     		</footer>
 

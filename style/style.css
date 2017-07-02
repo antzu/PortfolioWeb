@@ -1,7 +1,15 @@
 
-html,body{
+html{
     height: 100%
+    
+    
 
+}
+
+body {
+  position: relative;
+  padding-bottom: 50px;
+  margin: 0;
 }
 
 .app-container {
@@ -11,13 +19,20 @@ html,body{
 
 }
 
+.container-full-page {
+  height: 100vh;
+}
+
 /* Navigation */
 
 .container-nav {
   
   padding: 0 0 0 0;
   width: 100%;
-} 
+}
+.navbar-brand {
+  padding-right: 30px;
+}
 
 /* Jumbotron...the big image */
 
@@ -91,7 +106,10 @@ html,body{
 
 /* Footer */
 .footer {
-  padding-top: 80px;
+  padding-top: 50px;
+  background-color: #292B2C;
+  position: absolute;
+  
 }
 
 

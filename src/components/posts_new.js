@@ -37,6 +37,8 @@ class PostsNew extends Component {
 
 		return(
 
+			<div className="container container-full-page">
+
 			<form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
 				<Field
 					label="Title"
@@ -56,6 +58,8 @@ class PostsNew extends Component {
 				<button type="submit" className="btn btn-primary">Submit</button>
 				<Link to="/posts" className="btn btn-danger">Cancel</Link>
 			</form>
+
+			</div>
 		);
 	}
 }

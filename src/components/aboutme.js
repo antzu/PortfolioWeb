@@ -6,7 +6,7 @@ class AboutMe extends Component {
 
 render() {
 	return (
-		<div className="container">
+		<div className="container container-full-page">
         
         	<h3>About me</h3>
           
