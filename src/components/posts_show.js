@@ -28,7 +28,7 @@ class PostsShow extends Component {
 		}
 
 	    return (
-	    	<div>
+	    	<div className="container">
 	    		<div className="text-left">
 	    		<Link to="/posts">Back to posts</Link>
 	    		</div>
