@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { fetchPosts } from '../actions';
+import PostsShow from './posts_show';
 
 
 class PostsIndex extends Component {
@@ -23,12 +24,34 @@ class PostsIndex extends Component {
 		});
 	}
 
+	renderFullPosts(){
+		var array = _.chunk(this.props.posts, 2);
+		return _.map(array, post => {
+
+			return (
+				<div key={post.id}>
+				<h4>{post.title}</h4>
+	    		<h6>{post.categories}</h6>
+	    		<p>{post.content}</p>
+	    		<hr />
+				</div>
+
+			);
+		});
+	}
+
 	render() {
 
 	    return (
-	    	<div>
-	    	
-			<div className="container container-full-page">
+	    	<div className="container">
+	    	<div className="row">
+	    	<div className="container-full-page col-md-8 hidden-md-down" id="posts">
+	    		<h3>Latest posts</h3>
+	    		
+	    		{this.renderFullPosts()}
+	    		
+	    	</div>
+			<div className="container-full-page col-md-4 col-sm-12 col-12">
 	    	
 	    		<div className="text-right">
 	    			<Link className="btn btn-primary" to="/posts/new">
@@ -41,6 +64,7 @@ class PostsIndex extends Component {
 		    	<ul className="list-group">
 		    		{this.renderPosts()}
 		    	</ul>
+	      	</div>
 	      	</div>
 	      	</div>
 

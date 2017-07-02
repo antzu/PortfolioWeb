@@ -32,6 +32,8 @@ ReactDOM.render(
     	</Switch>
       <Footer />
     </div>
+
     </BrowserRouter>
+    
   </Provider>
   , document.querySelector('.app'));
