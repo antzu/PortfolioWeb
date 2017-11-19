@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
+import ProjectsList from "./projects_list";
 
 class HomePage extends Component {
 	render() {
@@ -30,44 +31,7 @@ class HomePage extends Component {
 					<div className="container">
 						<h3>Sample projects</h3>
 						<div className="row">
-							<div className="card col-md-4 col-sm-12 col-12">
-								<img
-									src="img/programming.jpg"
-									alt="Card image cap"
-								/>
-								<p className="card-text">
-									This is a wider card with supporting text
-									below as a natural lead-in to additional
-									content. This content is a little bit
-									longer.
-								</p>
-							</div>
-
-							<div className="card col-md-4 col-sm-12 col-12">
-								<img
-									src="img/programming.jpg"
-									alt="Card image cap"
-								/>
-								<p className="card-text">
-									This is a wider card with supporting text
-									below as a natural lead-in to additional
-									content. This content is a little bit
-									longer.
-								</p>
-							</div>
-
-							<div className="card col-md-4 col-sm-12 col-12">
-								<img
-									src="img/programming.jpg"
-									alt="Card image cap"
-								/>
-								<p className="card-text">
-									This is a wider card with supporting text
-									below as a natural lead-in to additional
-									content. This content is a little bit
-									longer.
-								</p>
-							</div>
+							<ProjectsList />
 						</div>
 					</div>
 				</div>

@@ -2,31 +2,9 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import * as actions from '../actions';
 import { Link } from 'react-router';
+import ProjectsList from './projects_list'
 
 class Projects extends Component {
-
-  componentWillMount(){
-    this.props.fetchProjects();
-  }
-
-  renderProjects(){
-      return this.props.projects.map(project => {
-        return(
-            <div className="project" key={project.id}>
-              <div className="project-pic">
-                <img src="../img/programming.jpg" />
-              </div>
-              <div className="project-content">
-                <h3>{project.title}</h3>
-                <p>{project.description}</p>
-              </div>
-
-            </div>
-          );
-      });
-
-  }
-
 
   render() {
 
@@ -41,20 +19,11 @@ class Projects extends Component {
       		Here will be all the different social media contact glyphicons
       	</div>
 
-      	<div className="projects-area">
-            
-          {this.renderProjects()}
+      	<ProjectsList />
 
-            
-      	</div>
-      	
       </div>
     );
   }
 }
 
-function mapStateToProps(state){
-  return { projects: state.contents.projects };
-}
-
-export default connect(mapStateToProps, actions)(Projects);
+export default Projects;
