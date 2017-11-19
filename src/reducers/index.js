@@ -1,12 +1,14 @@
 import { combineReducers } from "redux";
 import { reducer as formReducer } from "redux-form";
-import PostsReducer from "./reducer_posts";
-import projectsReducer from './project_reducer';
+import postsReducer from "./posts_reducer";
+import projectsReducer from "./project_reducer";
+import chatReducer from "./chat_reducer";
 
 const rootReducer = combineReducers({
-	posts: PostsReducer,
+	posts: postsReducer,
 	form: formReducer,
-	contents: projectsReducer
+	contents: projectsReducer,
+	chat: chatReducer
 });
 
 export default rootReducer;

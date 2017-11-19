@@ -13,13 +13,14 @@ class ProjectsList extends Component {
       return (
         <div className="card col-md-4 col-sm-12 col-12" key={project.id}>
           <img src="../img/programming.jpg" alt="Card image cap" />
-          <p className="card-text">
+          <div className="card-text">
             <h3>
               {project.title}
             </h3>
+            <p>
             {project.description}
-            
-          </p>
+            </p>
+          </div>
         </div>
       );
     });

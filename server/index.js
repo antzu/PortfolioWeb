@@ -17,13 +17,13 @@ app.get("/projects", (req, res) => {
 			description:
 				"See on minu esimene projekt. See on minu esimene projekt. See on minu esimene projekt. See on minu esimene projekt. See on minu esimene projekt."
 		},
-				{
+		{
 			id: 3,
 			title: "Project 3",
 			description:
 				"See on minu esimene projekt. See on minu esimene projekt. See on minu esimene projekt. See on minu esimene projekt. See on minu esimene projekt."
 		},
-				{
+		{
 			id: 4,
 			title: "Project 4",
 			description:

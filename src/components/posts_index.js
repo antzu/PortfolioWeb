@@ -44,7 +44,7 @@ class PostsIndex extends Component {
 
 	render() {
 		return (
-			<div className="container">
+			<div className="container container-full-page">
 				<div className="row">
 					<div
 						className="container-full-page col-md-8 md-down"

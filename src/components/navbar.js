@@ -43,6 +43,11 @@ class NavBar extends Component {
                   Projects
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/chat">
+                  Chat
+                </Link>
+              </li>
             </ul>
           </div>
         </nav>
