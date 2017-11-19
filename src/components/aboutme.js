@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 class AboutMe extends Component {
   render() {
     return (
-      <div className="container container-full-page">
+      <div className="container">
         <h3>About me</h3>
         <div className="row">
           <div className="card col-md-4 col-sm-12 col-12">

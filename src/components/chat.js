@@ -28,27 +28,31 @@ class Chat extends Component {
 
 	render() {
 		return (
-			<div className="container container-full-page">
+			<div className="container">
 				<h4>Leave a message</h4>
-				<ul className="list-group">
-					{this.renderPosts()}
-				</ul>
-				<form
-					onSubmit={this.handleFormSubmit.bind(this)}
-					className="form-inline"
-				>
-					<div className="form-group">
-						<input
-							className="form-control"
-							placeholder="Add a post"
-							value={this.state.post}
-							onChange={this.handleInputChange.bind(this)}
-						/>
-						<button action="submit" className="btn btn-primary">
-							Create Post
-						</button>
-					</div>
-				</form>
+				<div className="">
+					<ul className="list-group">
+						{this.renderPosts()}
+					</ul>
+				</div>
+				<div className="">
+					<form
+						onSubmit={this.handleFormSubmit.bind(this)}
+						className="form-inline"
+					>
+						<div className="form-group">
+							<input
+								className="form-control"
+								placeholder="Add a post"
+								value={this.state.post}
+								onChange={this.handleInputChange.bind(this)}
+							/>
+							<button action="submit" className="btn btn-primary">
+								Create Post
+							</button>
+						</div>
+					</form>
+				</div>
 			</div>
 		);
 	}

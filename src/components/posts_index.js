@@ -44,10 +44,10 @@ class PostsIndex extends Component {
 
 	render() {
 		return (
-			<div className="container container-full-page">
+			<div className="container">
 				<div className="row">
 					<div
-						className="container-full-page col-md-8 md-down"
+						className="col-md-8 md-down"
 						id="posts"
 					>
 						<h3>Latest posts</h3>

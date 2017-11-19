@@ -26,6 +26,10 @@ body {
   height: 100vh;
 }
 
+.container{
+  padding-top: 10px;
+}
+
 /* Navigation */
 
 .container-nav {

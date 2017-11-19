@@ -7,7 +7,7 @@ import ProjectsList from "./projects_list";
 class Projects extends Component {
 	render() {
 		return (
-			<div className="container container-full-page">
+			<div className="container">
 				<div className="projects-title">
 					<h3>Projects</h3>
 				</div>
